@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ss4uch/testinghooks.ss4u.ch/web/
+    - /bin/cp -R * $DEPLOYPATH
